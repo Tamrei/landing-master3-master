@@ -1,0 +1,90 @@
+@media (max-device-width: 768px) {
+    .btn {
+        padding: 18px 28px;
+        font-size: 40px;
+        line-height: normal;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        border-radius: 8px;
+    }
+
+    .login-bottom {
+        text-align: left !important;
+        margin-top: 35px;
+        margin-bottom: 45px;
+    }
+
+    .btn-group-phone {
+        padding-top: 75px !important;
+    }
+
+    .bg-phone > h1 {
+        font-size: 55px;
+    }
+
+    .bg-phone > h2 {
+        font-size: 42px;
+    }
+
+    .bg-phone > h3 {
+        font-size: 32px;
+    }
+
+    h1, h2 {
+        font-size: 40px;
+    }
+
+    .features > h3 {
+        font-size: 35px;
+    }
+
+    select.btn-select {
+        font-size: 40px;
+        height: 80px;
+    }
+
+    option {
+        font-size: 20px;
+    }
+}
+
+.container-small {
+    border-radius: 10px;
+
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.login-bottom {
+    text-align: right;
+}
+
+@media (max-width: 992px){
+    .login-bottom {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .container-small {
+        width: 800px;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .container-small {
+        width: 670px;
+        /*padding: 0;*/
+    }
+}
+
+@media (min-width: 1200px) {
+    .container-small {
+        width: 830px;
+    }
+}
+

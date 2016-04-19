@@ -1,0 +1,279 @@
+body {
+  overflow-x: hidden; }
+
+p {
+  font-family: 'gotham_bookregular', sans-serif !important; }
+
+body {
+  font-family: 'gotham_bookregular', sans-serif !important; }
+
+.bg-header {
+  padding: 0;
+  position: relative; }
+  .bg-header img {
+    content: url("../resources/images/background/CoverTileDesktop_desktop.jpg");
+    z-index: -1;
+    position: absolute;
+    width: 100%; }
+  .bg-header .back-img {
+    content: url("../resources/images/background/CoverTileDesktop_desktop.jpg");
+    z-index: -1;
+    width: 100%; }
+  .bg-header .cnt-btn {
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    width: 25%;
+    overflow: hidden;
+    white-space: initial; }
+  @media (max-device-width: 768px) {
+    .bg-header .back-img {
+      content: url("../resources/images/background/CoverTileDesktop_mobile.jpg"); }
+    .bg-header .cnt-btn {
+      left: 25%;
+      width: 50%; } }
+  @media screen and (max-width: 851px) {
+    .bg-header .back-img {
+      content: url("../resources/images/background/CoverTileDesktop_mobile.jpg"); }
+    .bg-header .cnt-btn {
+      left: 25%;
+      width: 50%; }
+    .bg-header .img-logo {
+      content: url("../resources/images/Sim_logo.png");
+      position: absolute;
+      width: 105% !important;
+      top: 0; } }
+  @media screen and (max-width: 451px) {
+    .bg-header .img-logo {
+      content: url("../resources/images/Sim_logo.png");
+      width: 105% !important; } }
+  .bg-header .btn-cont {
+    top: 50%; }
+  .bg-header .img-logo {
+    content: url("../resources/images/Sim_logo.png");
+    position: absolute;
+    width: 55%;
+    top: 0px; }
+  @media (max-device-width: 768px) {
+    .bg-header .img-logo {
+      content: url("../resources/images/Sim_logo.png");
+      position: absolute;
+      width: 95%; } }
+  @media screen and (max-width: 981px) {
+    .bg-header {
+      /** IMG _ LOGO WAS HERE **/ } }
+
+.bg-header .sim-logo {
+  background: url("../resources/images/Sim_logo.png");
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 800px;
+  height: 388px; }
+
+.bg-header .product-header {
+  background: url("../resources/images/productHeader/ProductHeaderDesktop_desktop.jpg");
+  height: 270px;
+  background-size: 980px 60px; }
+
+.bg-product .container2 {
+  margin-top: 60px; }
+
+.bg-product {
+  background-color: #101A24; }
+  .bg-product .container2 {
+    margin-top: 60px;
+    margin-bottom: 60px; }
+  .bg-product .product {
+    text-align: center; }
+    .bg-product .product h1 {
+      color: white;
+      font-size: 70px; }
+    .bg-product .product h2 {
+      color: white;
+      font-size: 54px; }
+
+.bg-product2 {
+  background-color: #D2D8E3; }
+  @media (max-device-width: 768px) {
+    .bg-product2 .header-text h4 {
+      font-size: 40px; }
+    .bg-product2 .header-text h3 {
+      font-size: 55px !important; }
+    .bg-product2 .price {
+      margin-top: 100px !important; }
+    .bg-product2 .features {
+      margin-top: 80px !important; }
+    .bg-product2 p {
+      font-size: 40px;
+      margin-top: 30px; }
+    .bg-product2 h2 {
+      font-size: 105px; }
+    .bg-product2 .img1 {
+      background: url("../resources/images/talk.png") no-repeat;
+      padding-left: 110px !important;
+      padding-top: 90px !important;
+      background-size: 110px 90px !important; }
+    .bg-product2 .img2 {
+      background: url("../resources/images/data.png") no-repeat;
+      padding-left: 120px !important;
+      padding-top: 100px !important;
+      background-size: 120px 100px !important; } }
+  .bg-product2 .price {
+    margin-top: 40px; }
+  .bg-product2 .product-container-holder {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-bottom: 15px;
+    background-color: #d2d8e3; }
+  .bg-product2 .product-content {
+    position: relative;
+    width: 100%;
+    max-width: 1024px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    padding-top: 25px;
+    margin-bottom: 25px; }
+  .bg-product2 .product {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: auto;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-top: 12px solid #dedede;
+    min-height: 100px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -moz-opacity: 0; }
+  .bg-product2 .prod {
+    display: inline-block;
+    position: relative;
+    height: auto;
+    width: 300px;
+    background-color: #fff;
+    border-top: 12px solid #dedede;
+    border-radius: 5px;
+    padding: 20px 23px; }
+    .bg-product2 .prod .prodTitle {
+      max-height: 51px;
+      position: relative;
+      height: auto;
+      width: 100%;
+      min-height: 51px;
+      text-align: center; }
+      .bg-product2 .prod .prodTitle .header-text {
+        position: relative;
+        display: inline-block;
+        margin-left: 12px;
+        width: auto;
+        text-align: left; }
+      .bg-product2 .prod .prodTitle .header-img-talk {
+        padding-top: 40px;
+        position: relative;
+        vertical-align: top;
+        display: inline-block; }
+      .bg-product2 .prod .prodTitle .img1 {
+        background: url("../resources/images/talk.png");
+        width: 44px;
+        height: 51px; }
+      .bg-product2 .prod .prodTitle .img2 {
+        background: url("../resources/images/data.png");
+        width: 47px;
+        height: 51px; }
+  @media (max-device-width: 768px) {
+    .bg-product2 .prod {
+      display: inline-block;
+      position: relative;
+      width: 800px;
+      height: 1050px;
+      background-color: #fff;
+      border-top: 12px solid #dedede;
+      border-radius: 5px;
+      font-size: 30px;
+      padding: 20px 23px; } }
+
+.bg-location {
+  background-color: #404042; }
+  .bg-location .center-block {
+    float: none !important; }
+  .bg-location .cont-block {
+    width: 185px;
+    height: 145px;
+    border: 2px solid #FFF;
+    border-radius: 20px;
+    color: #FFF; }
+  @media (min-width: 768px) {
+    .bg-location .cont-block {
+      width: 185px;
+      height: 145px; }
+    .bg-location .left-col {
+      margin-right: 0 !important; }
+    .bg-location .right-col {
+      margin-left: 0 !important; } }
+  @media (min-width: 992px) {
+    .bg-location .cont-block {
+      width: 155px;
+      height: 140px; } }
+  @media (min-width: 1200px) {
+    .bg-location .cont-block {
+      width: 180px;
+      height: 145px; } }
+  @media (max-device-width: 768px) {
+    .bg-location .cont-block {
+      width: 355px;
+      height: 285px; } }
+  .bg-location .cont1 {
+    background: url("../resources/images/1_2EU_en.png");
+    width: 588px;
+    height: 236px; }
+  .bg-location .cont2 {
+    background: url("../resources/images/3_4EU_en.png");
+    width: 588px;
+    height: 236px; }
+
+.bg-phone {
+  background: url("../resources/images/Pebblebackground_desktop.jpg");
+  background-size: cover;
+  height: 470px; }
+  .bg-phone .btn-group-phone {
+    padding-top: 125px; }
+
+.bg-loyalty {
+  background-color: #0F1A24;
+  height: 470px;
+  margin-right: -15px;
+  color: white; }
+  .bg-loyalty .btn-cont {
+    padding-top: 18px; }
+  .bg-loyalty h1 {
+    color: white; }
+
+.bg-bottom {
+  background-color: #000000;
+  color: white; }
+  .bg-bottom p > a {
+    color: white; }
+  .bg-bottom .header-link {
+    font-weight: bold;
+    font-size: 15px; }
+  .bg-bottom .row {
+    padding: 15px 15px 0 15px; }
+  .bg-bottom p {
+    margin-bottom: 4px; }
+  .bg-bottom .help-info {
+    padding-left: 15px !important; }
+  .bg-bottom .help-info > p {
+    margin-bottom: 0; }
+  .bg-bottom .marg-bottm {
+    margin-bottom: 18px !important; }
+
+.row > .col-md-6 {
+  padding: 0; }
+
+/*# sourceMappingURL=main.css.map */
